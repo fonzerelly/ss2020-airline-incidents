@@ -18,9 +18,12 @@ export const AirlineSafetyContext = createContext([])
 export function AirlineSafetyProvider ({children}) {
     const [airlineSafety, setAirlineSafety] = useState([]);
     useEffect(() => {
-        loadAirlineData().then((json) => {
-            setAirlineSafety(json)
-        })
+        if (airlineSafety.length === 0) {
+            loadAirlineData().then((json) => {
+                console.log('loading...')
+                setAirlineSafety(json)
+            })
+        }
     })
     return (
         <AirlineSafetyContext.Provider value={[airlineSafety]}>
