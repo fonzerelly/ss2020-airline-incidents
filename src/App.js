@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Dummy from './Dummy'
-import {AirlineSafetyProvider} from './airline-context'
 
 function App() {
   return (
@@ -20,9 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <AirlineSafetyProvider> 
           <Dummy/>
-        </AirlineSafetyProvider>
       </header>
     </div>
   );

@@ -1,33 +1,5 @@
-import React, { createContext, useEffect, useState } from 'react'
-import parse from 'csv-parse/lib/sync'
+import { createContext } from 'react'
 
-export function loadAirlineData () {
-    return fetch('/airline-safety.csv')
-        .then((response) => {
-            return response.text()
-        })
-        .then((text) => {
-            return parse(text, {
-                columns: true
-            })
-        })
-}
+const AirlineSafetyContext = createContext([[], () => {throw new Error ('Context not yet defined')}])
 
-export const AirlineSafetyContext = createContext([])
-
-export function AirlineSafetyProvider ({children}) {
-    const [airlineSafety, setAirlineSafety] = useState([]);
-    useEffect(() => {
-        if (airlineSafety.length === 0) {
-            loadAirlineData().then((json) => {
-                console.log('loading...')
-                setAirlineSafety(json)
-            })
-        }
-    })
-    return (
-        <AirlineSafetyContext.Provider value={[airlineSafety]}>
-            { children }
-        </AirlineSafetyContext.Provider>
-    )
-}
+export default AirlineSafetyContext
