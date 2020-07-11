@@ -20,7 +20,7 @@ export default function Main () {
     })
 
     return (
-        <AirlineSafetyContext.Provider value={[airlineSafety, setAirlineSafety]}>
+        <AirlineSafetyContext.Provider value={[airlineSafety]}>
             <App/>
         </AirlineSafetyContext.Provider>
     )
