@@ -7,13 +7,16 @@ export default function Main() {
     const [airlineData, setAirlineData] = useState([])
 
     useEffect(() => {
-        loadAirlineData()
+        if (!airlineData || airlineData.length === 0) {
+            loadAirlineData()
             .then((json) => {
                 setAirlineData(json)
             })
             .catch((err) => {
                 console.error('Error ' + err);
             })
+        }
+        
     })
     return (
         <AirlineSafetyContext.Provider value={[airlineData]}>
