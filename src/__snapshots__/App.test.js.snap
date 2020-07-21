@@ -7,6 +7,1124 @@ exports[`App should render all the time equally with data 1`] = `
       First Airline: 
       "Aer Lingus"
     </h1>
+    <div
+      style="width: 800px; height: 300px;"
+    >
+      <div
+        class="ReactChart "
+        style="width: 0px; height: 0px; position: relative;"
+      >
+        <svg
+          style="width: 0px; height: 0px; overflow: hidden;"
+        >
+          <g
+            style="transform: translate3d(20px, 0px, 0);"
+          >
+            <rect
+              height="0"
+              style="stroke-width: 0; fill: #333; opacity: 0;"
+              width="0"
+              x="-20"
+              y="0"
+            />
+            <g
+              class="axes"
+            >
+              <g
+                class="Axis"
+                style="pointer-events: none; transform: translate3d(0, -20px, 0);"
+              >
+                <path
+                  class="domain"
+                  d="
+        M 0, 6
+        V 0
+        H -20
+        V 6
+      "
+                  style="stroke-width: 1; stroke: rgba(0,0,0, .1); fill: transparent; opacity: 1;"
+                />
+                <g
+                  class="ticks"
+                >
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        0
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-2px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        5
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-4px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        10
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-5px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        15
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-7px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        20
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-9px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        25
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-11px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        30
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-13px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        35
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-15px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        40
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-16px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        45
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-18px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        50
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(-20px, 0, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      y1="0"
+                      y2="20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="6"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="hanging"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(0px, 20px, 0) rotate(0deg);"
+                        text-anchor="middle"
+                      >
+                        55
+                      </text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g
+                class="Axis"
+                style="pointer-events: none;"
+              >
+                <path
+                  class="domain"
+                  d="
+        M -6, -20
+        H 0
+        V 0
+        H -6
+      "
+                  style="stroke-width: 1; stroke: rgba(0,0,0, .1); fill: transparent; opacity: 1;"
+                />
+                <g
+                  class="ticks"
+                >
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, -20px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        0
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, -17px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        1,000,000,000
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, -15px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        2,000,000,000
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, -12px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        3,000,000,000
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, -10px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        4,000,000,000
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, -7px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        5,000,000,000
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, -5px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        6,000,000,000
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, -2px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        7,000,000,000
+                      </text>
+                    </g>
+                  </g>
+                  <g
+                    class="tick"
+                    style="transform: translate3d(0, 0px, 0);"
+                  >
+                    <line
+                      class="gridLine"
+                      style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                      x1="0"
+                      x2="-20"
+                    />
+                    <g
+                      class="labelGroup"
+                    >
+                      <line
+                        class="tickline"
+                        style="stroke-width: 1; fill: transparent; opacity: 1; stroke: rgba(0,0,0, .1);"
+                        x1="0"
+                        x2="-6"
+                        y1="0"
+                        y2="0"
+                      />
+                      <text
+                        class="tickLabel"
+                        dominant-baseline="central"
+                        style="font-family: sans-serif; font-size: 10px; opacity: 1; fill: black; transform: translate3d(-20px, 0px, 0) rotate(0deg);"
+                        text-anchor="end"
+                      >
+                        8,000,000,000
+                      </text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g
+              class="Series"
+              style="pointer-events: none;"
+            >
+              <g
+                class="series bar"
+              >
+                <rect
+                  height="0.8022668350000011"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="0"
+                  y="-20"
+                />
+                <rect
+                  height="2.994180795000002"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-0.36363636363636365"
+                  y="-20"
+                />
+                <rect
+                  height="0.9645091199999989"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-0.7272727272727273"
+                  y="-20"
+                />
+                <rect
+                  height="1.4921795324999998"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-1.0909090909090908"
+                  y="-20"
+                />
+                <rect
+                  height="4.663134504999999"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-1.4545454545454546"
+                  y="-20"
+                />
+                <rect
+                  height="7.5100066524999995"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-1.8181818181818183"
+                  y="-20"
+                />
+                <rect
+                  height="2.1731338800000017"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-2.1818181818181817"
+                  y="-20"
+                />
+                <rect
+                  height="1.775437042500002"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-2.545454545454545"
+                  y="-20"
+                />
+                <rect
+                  height="2.4133669325000007"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-2.909090909090909"
+                  y="-20"
+                />
+                <rect
+                  height="1.7450312449999998"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-3.2727272727272725"
+                  y="-20"
+                />
+                <rect
+                  height="4.603085442500001"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-3.6363636363636367"
+                  y="-20"
+                />
+                <rect
+                  height="13.070893349999999"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-4"
+                  y="-20"
+                />
+                <rect
+                  height="0.8955995574999989"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-4.363636363636363"
+                  y="-20"
+                />
+                <rect
+                  height="0.9923064075000028"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-4.7272727272727275"
+                  y="-20"
+                />
+                <rect
+                  height="7.949402380000002"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-5.09090909090909"
+                  y="-20"
+                />
+                <rect
+                  height="6.456148257500001"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-5.454545454545454"
+                  y="-20"
+                />
+                <rect
+                  height="2.033041217499999"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-5.818181818181818"
+                  y="-20"
+                />
+                <rect
+                  height="1.044956525"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-6.181818181818182"
+                  y="-20"
+                />
+                <rect
+                  height="1.3762287675000024"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-6.545454545454545"
+                  y="-20"
+                />
+                <rect
+                  height="16.314147235"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-6.909090909090909"
+                  y="-20"
+                />
+                <rect
+                  height="1.3942497275"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-7.272727272727273"
+                  y="-20"
+                />
+                <rect
+                  height="0.8386200574999982"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-7.636363636363637"
+                  y="-20"
+                />
+                <rect
+                  height="1.221401607499999"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-8"
+                  y="-20"
+                />
+                <rect
+                  height="1.2661623750000004"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-8.363636363636363"
+                  y="-20"
+                />
+                <rect
+                  height="1.533391662499998"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-8.727272727272727"
+                  y="-20"
+                />
+                <rect
+                  height="0.7534494049999978"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-9.09090909090909"
+                  y="-20"
+                />
+                <rect
+                  height="1.2346944875000005"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-9.454545454545455"
+                  y="-20"
+                />
+                <rect
+                  height="2.933007815"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-9.818181818181818"
+                  y="-20"
+                />
+                <rect
+                  height="3.935543827500002"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-10.18181818181818"
+                  y="-20"
+                />
+                <rect
+                  height="0.6935369850000015"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-10.545454545454545"
+                  y="-20"
+                />
+                <rect
+                  height="4.6864044325"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-10.909090909090908"
+                  y="-20"
+                />
+                <rect
+                  height="4.336306512500002"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-11.272727272727272"
+                  y="-20"
+                />
+                <rect
+                  height="2.504914727500001"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-11.636363636363637"
+                  y="-20"
+                />
+                <rect
+                  height="8.56632376"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-12"
+                  y="-20"
+                />
+                <rect
+                  height="2.5979281100000016"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-12.363636363636363"
+                  y="-20"
+                />
+                <rect
+                  height="0.8714078425000018"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-12.727272727272727"
+                  y="-20"
+                />
+                <rect
+                  height="1.0325178950000016"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-13.09090909090909"
+                  y="-20"
+                />
+                <rect
+                  height="4.79357246"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-13.454545454545455"
+                  y="-20"
+                />
+                <rect
+                  height="0.7392633474999997"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-13.818181818181818"
+                  y="-20"
+                />
+                <rect
+                  height="1.70742963"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-14.181818181818182"
+                  y="-20"
+                />
+                <rect
+                  height="2.1491847524999983"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-14.545454545454547"
+                  y="-20"
+                />
+                <rect
+                  height="5.9421445125000005"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-14.90909090909091"
+                  y="-20"
+                />
+                <rect
+                  height="1.6287561050000008"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-15.272727272727273"
+                  y="-20"
+                />
+                <rect
+                  height="8.191314425"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-15.636363636363637"
+                  y="-20"
+                />
+                <rect
+                  height="0.8139574399999994"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-16"
+                  y="-20"
+                />
+                <rect
+                  height="1.981503247500001"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-16.363636363636363"
+                  y="-20"
+                />
+                <rect
+                  height="0.6484333650000025"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-16.727272727272727"
+                  y="-20"
+                />
+                <rect
+                  height="3.7729891150000014"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-17.09090909090909"
+                  y="-20"
+                />
+                <rect
+                  height="1.5478268849999992"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-17.454545454545453"
+                  y="-20"
+                />
+                <rect
+                  height="4.257005624999998"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-17.818181818181817"
+                  y="-20"
+                />
+                <rect
+                  height="4.865245735000002"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-18.18181818181818"
+                  y="-20"
+                />
+                <rect
+                  height="17.8482282275"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-18.545454545454547"
+                  y="-20"
+                />
+                <rect
+                  height="6.1392197175"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-18.90909090909091"
+                  y="-20"
+                />
+                <rect
+                  height="1.5627122950000008"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-19.272727272727273"
+                  y="-20"
+                />
+                <rect
+                  height="2.5131214625000027"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-19.636363636363637"
+                  y="-20"
+                />
+                <rect
+                  height="1.076157405"
+                  style="stroke-width: 0; fill: #4ab5eb; opacity: 1; pointer-events: all; stroke: #4ab5eb;"
+                  width="0"
+                  x="-20"
+                  y="-20"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -18,6 +1136,78 @@ exports[`App should render all the time equally without data 1`] = `
       First Airline: 
       none
     </h1>
+    <div
+      style="width: 800px; height: 300px;"
+    >
+      <div
+        class="ReactChart "
+        style="width: 0px; height: 0px; position: relative;"
+      >
+        <svg
+          style="width: 0px; height: 0px; overflow: hidden;"
+        >
+          <g
+            style="transform: translate3d(20px, 0px, 0);"
+          >
+            <rect
+              height="0"
+              style="stroke-width: 0; fill: #333; opacity: 0;"
+              width="0"
+              x="-20"
+              y="0"
+            />
+            <g
+              class="axes"
+            >
+              <g
+                class="Axis"
+                style="pointer-events: none; transform: translate3d(0, -20px, 0);"
+              >
+                <path
+                  class="domain"
+                  d="
+        M 0, 6
+        V 0
+        H -20
+        V 6
+      "
+                  style="stroke-width: 1; stroke: rgba(0,0,0, .1); fill: transparent; opacity: 1;"
+                />
+                <g
+                  class="ticks"
+                />
+              </g>
+              <g
+                class="Axis"
+                style="pointer-events: none;"
+              >
+                <path
+                  class="domain"
+                  d="
+        M -6, -20
+        H 0
+        V 0
+        H -6
+      "
+                  style="stroke-width: 1; stroke: rgba(0,0,0, .1); fill: transparent; opacity: 1;"
+                />
+                <g
+                  class="ticks"
+                />
+              </g>
+            </g>
+            <g
+              class="Series"
+              style="pointer-events: none;"
+            >
+              <g
+                class="series bar"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
   </div>
 </div>
 `;

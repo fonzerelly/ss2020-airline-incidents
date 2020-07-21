@@ -17,6 +17,9 @@ export function createSeries() {
 
 export function createAirlineSeatKmPerWeekData(label, rawData) {
     const data = extractAirlineSeatKmPerWeekData(rawData)
+        .map((value, index) => {
+            return [index, value]
+        })
     return [{
         label,
         data
@@ -24,11 +27,9 @@ export function createAirlineSeatKmPerWeekData(label, rawData) {
 }
 
 export function extractAirlineSeatKmPerWeekData(rawData) {
-    return rawData.map((entry) => {
+    return rawData ? rawData.map((entry) => {
         return entry.avail_seat_km_per_week
     }).map((numAsString) => {
         return parseInt(numAsString, 10)
-    }).map((value, index) => {
-        return [index, value]
-    })
+    }) : []
 }
