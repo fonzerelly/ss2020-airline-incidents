@@ -5,7 +5,7 @@ import { AirlineSafetyContext } from './airline-context';
 import { readFileSync } from 'fs';
 import parse from 'csv-parse/lib/sync';
 
-describe('App', () => {
+xdescribe('App', () => {
   it('should render all the time equally without data', () => {
     let tree = (
       <AirlineSafetyContext.Provider value={[]}>
